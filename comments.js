@@ -18,3 +18,8 @@ router.get('/destroy/:id', passport.checkAuthentication, commentController.destr
 
 // export router
 module.exports = router;
+
+// mnake router as a package
+
+// Path: index.js
+// create we server
